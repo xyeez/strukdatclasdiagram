@@ -12,7 +12,7 @@ Program ini dibuat untuk mensimulasikan sistem manajemen kos sederhana berbasis 
 
 ---
 
-## 📊 Class Diagram
+##  Class Diagram
 
 ```mermaid
 classDiagram
@@ -40,7 +40,7 @@ classDiagram
 
 ---
 
-## 💻 Kode Program Java
+##  Kode Program Java
 
 ```java
 public class Main {
