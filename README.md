@@ -108,10 +108,6 @@ class Penyewa {
  contoh output program saat dijalankan:
 <img width="294" height="66" alt="awkaowkaokw" src="https://github.com/user-attachments/assets/8b66d1c9-d8c4-47f0-98ce-78e287b5f4ea" />
 
-```
-
-
-
 ---
 
 ##  Prinsip OOP yang Diterapkan
@@ -139,8 +135,3 @@ Keunikan program ini dibandingkan dengan program lain:
 
 * Menggunakan pendekatan sederhana tanpa menggunakan `ArrayList`, sehingga mudah dipahami oleh pemula
 * Struktur program Sederhana
-
----
-
-
----
