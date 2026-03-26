@@ -105,11 +105,10 @@ class Penyewa {
 
 ## 🖥️ Screenshot Output
 
-Berikut adalah contoh output program saat dijalankan:
+ contoh output program saat dijalankan:
 
 ```
-<img width="294" height="66" alt="Screenshot 2026-03-26 123906" src="https://github.com/user-attachments/assets/279e1e22-5ed7-4825-b9f5-dafbb8e9c146" />
-
+awkaowkaokw.png
 ```
 
 
