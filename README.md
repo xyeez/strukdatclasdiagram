@@ -1,18 +1,32 @@
-## Getting Started
+# budi pingin nge Kos (OOP Java)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 📌 Deskripsi Kasus
+Bisnis kos sering mengalami masalah dalam pencatatan kamar dan penyewa, seperti tidak mengetahui kamar kosong atau sudah terisi. Oleh karena itu, dibuat sistem sederhana berbasis Object-Oriented Programming (OOP) untuk membantu mengelola data kamar dan penyewa secara terstruktur.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 📊 Class Diagram
+```mermaid
+classDiagram
+    class Kos {
+        -String nama
+        -Kamar kamar
+        +tambahKamar(Kamar k)
+        +tampilkanKamar()
+    }
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+    class Kamar {
+        -int nomor
+        -boolean tersedia
+        -Penyewa penyewa
+        +isiKamar(Penyewa p)
+    }
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+    class Penyewa {
+        -String nama
+    }
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+    Kos --> Kamar
+    Kamar --> Penyewa
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
